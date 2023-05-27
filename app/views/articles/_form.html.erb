@@ -1,0 +1,21 @@
+<%= form_with model: @article do |form| %>
+  <div>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+    <% if @article.errors.has_key?(:title) %>
+      <p><%= @article.errors[:title].first %></p>
+    <% end %>
+  </div>
+
+  <div>
+    <%= form.label :body %><br>
+    <%= form.text_area :body %>
+    <% if @article.errors.has_key?(:body) %>
+      <p><%= @article.errors[:body].first %></p>
+    <% end %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
