@@ -1,0 +1,12 @@
+<h1>92hackers: Articles#index</h1>
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <a href="/articles/<%= article.id %>">
+        <span><%= article.title %></span>
+        <span style="color: blue; margin-left: 30px;"><%= article.body %></span>
+      </a>
+    </li>
+  <% end %>
+</ul>
+<p>Find me in app/views/articles/index.html.erb</p>
