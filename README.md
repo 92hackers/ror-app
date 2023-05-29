@@ -5,7 +5,7 @@ application up and running.
 
 ## Benefits with Ruby on Rails
 
-1. I get a totally "Best practise" web application framework, my job is just to add the business logic, That's awesome., That's awesome.
+1. I get a totally "Best practise" web application framework, my job is just to add the business logic, That's awesome.
 
 ## Things you may want to cover:
 
